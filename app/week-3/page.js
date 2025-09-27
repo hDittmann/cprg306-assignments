@@ -39,9 +39,12 @@ import ItemList from "../week-3/item-list";
 
 export default function Page() {
     return (
-        <main className="max-w-4xl mx-auto p-4 shadow-md rounded mt-10 mb-10 flex flex-col items-center justify-center">
-            <h1>Shopping List</h1>
-            <ItemList />
+        <main className="bg-gray-900 text-white p-8 min-h-screen">
+            <div className="max-w-lg mx-auto">
+                <h1 className="text-2xl font-bold mb-6 text-center">Shopping List</h1>
+                <ItemList />
+                <Link href="/">back</Link>
+            </div>
         </main>
     );
 }
