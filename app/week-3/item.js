@@ -1,4 +1,4 @@
-function item( {name, quantity, category} ) {
+function item({ name, quantity, category }) {
     return (
         <li>
             <span className="font-bold text-lg mr-4">{name} </span>
