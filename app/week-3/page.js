@@ -41,7 +41,7 @@ export default function Page() {
     return (
         <main className="max-w-4xl mx-auto p-4 shadow-md rounded mt-10 mb-10 flex flex-col items-center justify-center">
             <h1>Shopping List</h1>
-            <ItemList/>
+            <ItemList />
         </main>
     );
 }
