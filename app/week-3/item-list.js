@@ -75,7 +75,7 @@ function itemList() {
   };
   const items = [item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12];
   return (
-    <ul className="max-w-md">
+    <ul className="space-y-2 mb-6">
       {items.map((item, index) => (
         <Item key={index} name={item.name} quantity={item.quantity} category={item.category} />
       ))}
