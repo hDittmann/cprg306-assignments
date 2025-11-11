@@ -33,7 +33,7 @@ export default function Page() {
           </div>
         ) : (
           <div>
-            <p className="mb-4">Hi, {user.displayName}! ({user.email})</p>
+            <p className="mb-4">Welcome, {user.displayName}! ({user.email})</p>
             <div className="flex justify-center gap-4">
               <Link href="/week-9/shopping-list" className="bg-green-500 px-4 py-2 rounded">Go to Shopping List</Link>
               <button onClick={handleSignOut} className="bg-red-500 px-4 py-2 rounded">Sign out</button>
